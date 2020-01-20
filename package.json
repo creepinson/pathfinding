@@ -1,27 +1,23 @@
 {
-    "name": "p5js-astar",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-        "start": "serve"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/creepinson/astar-p5js"
-    },
-    "keywords": [
-        "pathfinding",
-        "codesandbox",
-        "static"
-    ],
-    "author": "Creepinson",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/creepinson/astar-p5js/issues"
-    },
-    "homepage": "https://github.com/creepinson/astar-p5js#readme",
-    "devDependencies": {
-        "serve": "^11.2.0"
-    }
+  "name": "p5js-astar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "static-server --cors '*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creepinson/astar-p5js"
+  },
+  "keywords": ["pathfinding", "codesandbox", "static"],
+  "author": "Creepinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creepinson/astar-p5js/issues"
+  },
+  "homepage": "https://github.com/creepinson/astar-p5js#readme",
+  "devDependencies": {
+    "static-server": ""
+  }
 }

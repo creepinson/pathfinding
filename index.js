@@ -1,17 +1,3 @@
-function removeFromArray(arr, elem) {
-  for (var i = arr.length - 1; i >= 0; i--) {
-    if (arr[i] === elem) {
-      arr.splice(i, 1);
-    }
-  }
-}
-
-function heuristic(a, b) {
-  // var d = dist(a.i, a.j, b.i, b.j);
-  var d = abs(a.i - b.i) + abs(a.j - b.j);
-  return d;
-}
-
 var cols = 25;
 var rows = 25;
 var grid = new Array(cols);
